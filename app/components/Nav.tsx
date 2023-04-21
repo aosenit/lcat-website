@@ -58,7 +58,7 @@ const Nav = () => {
             ))}
             <a
               href="#"
-              className="md:hidden absolute left-1/2 -translate-x-1/2 bottom-10 flex justify-center gap-2 items-center text-sm hover:primary-text transition text-gray-300 border-[1px] border-gray-300  px-10 py-5 hover:bg-white hover:text-black rounded-[2rem] w-[90%] container"
+              className="md:hidden absolute left-1/2 -translate-x-1/2 bottom-[18%] flex justify-center gap-2 items-center text-sm hover:primary-text transition text-gray-300 border-[1px] border-gray-300  px-10 py-5 hover:bg-white hover:text-black rounded-[2rem] w-[90%] container"
             >
               <span className="font-extrabold"> GET IN TOUCH</span>
             </a>
