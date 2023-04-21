@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const About = () => (
   <div className="text-white border-t-gray-500 border-t-[1px]" id="about">
-    <div className="container pt-10 md:grid grid-cols-3 gap-4 place-items-center h-full lg:min-h-[80vh]  lg:items-center">
+    <div className="container pt-10 md:grid grid-cols-3 gap-4 place-items-center h-full lg:min-h-[88vh]   lg:items-center">
       <div className="mt-4 mb-8 md:col-span-1">
         <h2
           className=" text-2xl md:text-4xl"
@@ -48,7 +48,15 @@ const About = () => (
     </div>
     <div className="h-[100px] grid place-items-center relative">
       <div className="h-[1px] w-full bg-gray-500 "></div>
-      <div className="bg-[#0e0e0e] w-[50px] h-[50px] rounded-full border-[2px] border-gray-300 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="bg-[#0e0e0e] w-[50px] h-[50px] rounded-full border-[2px] border-gray-300 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 grid place-items-center">
+        <Image
+          src={"/images/logoHead.png"}
+          alt="about image"
+          height={100}
+          width={100}
+          className=" w-[50px] h-[50px] rounded-full object-cover object-center"
+        />
+      </div>
     </div>
   </div>
 );

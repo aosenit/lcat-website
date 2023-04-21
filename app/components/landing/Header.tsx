@@ -2,6 +2,8 @@
 import useStore from "@/app/store/useStore";
 import Image from "next/image";
 import { FiArrowDown, FiArrowRight, FiMenu } from "react-icons/fi";
+import RotatingText from "../RotatingText";
+import CurvedText from "../RotatingText";
 const Header = () => {
   const { setOpenNav }: any = useStore();
   return (
@@ -23,7 +25,7 @@ const Header = () => {
       </div>
 
       <div
-        className="h-full z-[10]  bg-cover bg-no-repeat bg-top bg-blend-overlay bg-gray-800 "
+        className="h-full z-[10]  bg-cover bg-no-repeat bg-top bg-blend-overlay bg-gray-800 relative"
         style={{
           backgroundImage: `url("/images/hero-bg.jpg")`,
         }}
@@ -46,6 +48,10 @@ const Header = () => {
             </a>
             <FiArrowRight />
           </div>
+        </div>
+
+        <div className="absolute top-1/2 -translate-y-1/2 right-[5%]">
+          <CurvedText />
         </div>
       </div>
     </header>

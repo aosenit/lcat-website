@@ -5,10 +5,10 @@ import { FiArrowRight, FiGrid, FiMoreVertical } from "react-icons/fi";
 const Articles = () => {
   return (
     <section
-      className="my-10 text-white border-t-gray-500 border-t-[1px]"
+      className="my-10 text-white border-t-gray-500 border-t-[1px] py-[2rem]"
       id="articles"
     >
-      <div className="container md:h-[80vh] md:grid md:place-items-center md:grid-cols-2">
+      <div className="container md:h-[88vh] md:grid md:place-items-center md:grid-cols-2">
         <div className="text-left grid gap-5 py-3 flex-1 z-10  w-full">
           <h3
             className="text-2xl  lg:text-4xl uppercase"

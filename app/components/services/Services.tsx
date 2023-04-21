@@ -5,7 +5,7 @@ import CarouselPercentWith from "./CarouselPercentWidth";
 const Services = () => {
   return (
     <div className="" id="services">
-      <div className="container py-5  text-white md:flex  gap-4  justify-between items-center lg:min-h-[80vh]  lg:items-center">
+      <div className="container py-5  text-white lg:flex  gap-4  justify-between items-center lg:min-h-[88vh]  lg:items-center">
         <div className="text-left grid gap-5 py-3 flex-1">
           <h3
             className="text-2xl  lg:text-4xl uppercase"

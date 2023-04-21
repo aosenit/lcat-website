@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Faq = () => {
   return (
-    <section className="relative text-white border-t-gray-500 border-t-[1px]">
+    <section className="relative text-white border-t-gray-500 border-t-[1px] py-[2rem]">
       <div className="container md:h-[80vh] md:grid md:place-items-center md:grid-cols-2">
         <div className="text-left grid gap-5  flex-1 z-10">
           <h3

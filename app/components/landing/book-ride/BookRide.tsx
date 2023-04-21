@@ -15,7 +15,7 @@ const radioOptions = [
 const BookRide = () => {
   return (
     <section
-      className="text-white  border-t-gray-500 border-t-[1px] pt-[2rem] lg:py-[6rem]"
+      className="text-white  border-t-gray-500 border-t-[1px] py-[2rem] lg:py-[6rem] lg:min-h-[88vh]  lg:items-center lg:grid"
       id="book"
     >
       <div className="text-left grid gap-5 py-3  flex-1 container ">

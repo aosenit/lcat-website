@@ -24,6 +24,27 @@ html {
   scroll-padding-top: 12vh;
 }
 
+.svg {
+  fill: currentColor;
+  height: auto;
+  max-width: 66vmin;
+  transform-origin: center;
+  width: 66%;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation-name: spin;
+  animation-duration: 3s; /* change this value to modify the spin time */
+  animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  animation-iteration-count: infinite;
+}
+
 @layer components {
   .container {
     @apply px-5 max-w-[1440px] mx-auto md:px-10 lg:px-14;

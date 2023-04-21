@@ -5,7 +5,7 @@ const siteMapData = ["Home", "About", "Services", "Contact"];
 
 const Footer = () => {
   return (
-    <footer className="text-white border-t-gray-500 border-t-[1px]">
+    <footer className="text-white border-t-gray-500 border-t-[1px] py-[1rem]">
       <div className="container md:flex md:justify-center md:items-center md:h-[40vh] md:w-full">
         <div className="my-8 flex-1 w-full">
           <h3
