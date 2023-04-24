@@ -78,12 +78,8 @@ const Footer = () => {
           </h3>
           <div className="grid gap-2 my-3">
             <div className="flex items-center gap-2 text-sm text-gray-500 max-w-[40ch]">
-              <span>Mon - Fri :</span>
-              <span>9:00am - 9:00pm</span>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-gray-500 max-w-[40ch]">
-              <span>Sat - Sun :</span>
-              <span>9:00am - 9:00pm</span>
+              <span>Monday - Sunday :</span>
+              <span>24/7</span>
             </div>
           </div>
         </div>

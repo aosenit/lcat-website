@@ -19,10 +19,10 @@ const Services = () => {
             pariatur!
           </p>
           <a
-            href=""
-            className="h-fit flex justify-center gap-2 items-center text-sm hover:primary-text transition text-gray-300 border-[1px] border-gray-300 w-fit px-10 py-3 hover:bg-white hover:text-black"
+            href="#contact"
+            className="flex justify-center gap-2 items-center text-sm hover:primary-text transition text-gray-300 border-[1px] border-gray-300 w-fit px-10 py-3 hover:bg-white hover:text-black"
           >
-            <span> Learn More</span> <FiArrowRight className="text-[20px]" />
+            <span> CONTACT</span> <FiArrowRight className="text-[20px]" />
           </a>
         </div>
         <div className="flex-1">

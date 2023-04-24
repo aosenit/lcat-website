@@ -8,7 +8,7 @@ const Header = () => {
   const { setOpenNav }: any = useStore();
   return (
     <header className=" h-[100vh]  " id="home">
-      <div className="z-[1000] flex items-center justify-between h-[12vh] container fixed w-full left-0 top-0 bg-[rgb(0,0,0,.4)]">
+      <div className="z-[1000] flex items-center justify-between h-[12vh] container fixed w-full left-0 top-0 right-0  ">
         <Image
           src={"/images/logo.png"}
           alt="logo"

@@ -28,10 +28,11 @@ function CurvedText() {
         </text>
       </svg>
       <Image
+        loading="lazy"
         src={"/images/logoHead.png"}
         alt="about image"
-        height={100}
-        width={100}
+        height={300}
+        width={300}
         className=" w-[150px] h-[150px] rounded-full object-cover object-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-[150px]"
       />
     </div>

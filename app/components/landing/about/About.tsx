@@ -18,20 +18,20 @@ const About = () => (
           nostrum accusantium odit!
         </p>
         <a
-          href=""
+          href="#contact"
           className="flex justify-center gap-2 items-center text-sm hover:primary-text transition text-gray-300 border-[1px] border-gray-300 w-fit px-10 py-3 hover:bg-white hover:text-black"
         >
-          <span> Learn More</span> <FiArrowRight className="text-[20px]" />
+          <span> CONTACT</span> <FiArrowRight className="text-[20px]" />
         </a>
       </div>
 
       <div className="grid gap-8 md:col-span-2 md:grid-cols-2 md:gap-4">
         <div className="w-full h-[300px] lg:h-[400px]">
           <Image
-            src={"/images/aboutOne.jpg"}
+            src={"/images/about-image.jpg"}
             alt="about image"
-            height={100}
-            width={100}
+            height={300}
+            width={300}
             className="w-full h-full object-cover object-center"
           />
         </div>
@@ -39,8 +39,8 @@ const About = () => (
           <Image
             src={"/images/aboutTwo.jpg"}
             alt="about image"
-            height={100}
-            width={100}
+            height={300}
+            width={300}
             className="w-full h-full object-cover object-center"
           />
         </div>

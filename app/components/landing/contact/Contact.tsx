@@ -1,5 +1,5 @@
 import React from "react";
-import { FiMessageSquare, FiPhoneCall } from "react-icons/fi";
+import { FiMail, FiMessageSquare, FiPhoneCall } from "react-icons/fi";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -24,11 +24,9 @@ const Contact = () => {
           <div className="">
             <span className="text-gray-300 text-xs">Give us a call</span>
             <div className=" text-lg flex items-center gap-5">
-              <span>
-                +234 {""} 802 {""} 853 {""} 5661
-              </span>
+              <span>(+234) 803 740 9404</span>
               <a
-                href="#"
+                href="tel:+2348037409404"
                 className="h-16 w-16 bg-[var(--theme-color)]  grid place-items-center rounded-full transition hover:opacity-[.5]"
               >
                 <FiPhoneCall
@@ -41,15 +39,12 @@ const Contact = () => {
           <div className="">
             <span className="text-gray-300 text-xs">Send an email</span>
             <div className=" text-lg flex items-center gap-5">
-              <span>lyoncars@airport.com</span>
+              <span>info@lyoncarsairporttransfer.com</span>
               <a
-                href="#"
+                href="mailto:info@lyoncarsairporttransfer.com"
                 className="h-16 w-16 bg-[var(--theme-color)]  grid place-items-center rounded-full transition hover:opacity-[.5]"
               >
-                <FiMessageSquare
-                  size={"20px"}
-                  className="text-black animate-pulse"
-                />
+                <FiMail size={"20px"} className="text-black animate-pulse" />
               </a>
             </div>
           </div>

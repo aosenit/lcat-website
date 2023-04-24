@@ -3,12 +3,12 @@ import React from "react";
 
 const BookingForm = () => {
   return (
-    <form className="!text-white grid gap-5 my-5 md:flex-1 lg:h-[350px]">
+    <form className="!text-white grid gap-5 md:gap-2 my-5 md:flex-1 lg:h-[350px] max-w-[500px]">
       <div className="flex flex-col md:flex-row justify-between gap-4 ">
         <TextInput
-          placeholder="Your name"
-          name="name"
-          label={<span className="text-white">Full Name</span>}
+          placeholder="e.g John"
+          name="firstName"
+          label={<span className="text-white">First Name</span>}
           size="md"
           withAsterisk
           radius="xs"
@@ -16,9 +16,31 @@ const BookingForm = () => {
         />
 
         <TextInput
+          placeholder="e.g Doe"
+          name="LastName"
+          label={<span className="text-white">Last Name</span>}
+          size="md"
+          withAsterisk
+          radius="xs"
+          className="flex-1"
+        />
+      </div>
+      <div className="flex flex-col md:flex-row justify-between gap-4 ">
+        <TextInput
           name="phoneNumber"
-          placeholder="080333333333"
+          placeholder="e.g 080333333333"
           label={<span className="text-white">Phone Number</span>}
+          radius="xs"
+          withAsterisk
+          size="md"
+          className="flex-1"
+          type="number"
+        />
+
+        <TextInput
+          name="bookingNumber"
+          placeholder="e.g 1236"
+          label={<span className="text-white">Booking Number</span>}
           radius="xs"
           withAsterisk
           size="md"
@@ -29,7 +51,7 @@ const BookingForm = () => {
 
       <div className="flex flex-col md:flex-row justify-between gap-4">
         <TextInput
-          placeholder=" Muritala Mohammed Airport"
+          placeholder="e.g Muritala Mohammed Airport"
           name="pickup"
           label={<span className="text-white">Pick Up</span>}
           size="md"
@@ -39,7 +61,7 @@ const BookingForm = () => {
         />
 
         <TextInput
-          placeholder="320, Lekki Phase 1"
+          placeholder="e.g 320, Lekki Phase 1"
           name="dropoff"
           label={<span className="text-white">Drop off</span>}
           size="md"

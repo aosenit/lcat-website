@@ -8,10 +8,11 @@ const DownloadApp = () => {
       <div className="container my-5  lg:min-h-[88vh]  md:flex md:justify-between md:gap-10 md:items-center">
         <div className="w-full h-[250px]  md:flex-1">
           <Image
+            loading="lazy"
             src={"/images/mobile-app.png"}
             alt="about image"
-            height={100}
-            width={100}
+            height={300}
+            width={300}
             className="w-full h-full object-cover object-center max-w-[200px md:h-[300px]"
           />
         </div>
