@@ -50,9 +50,10 @@ const BookRide = () => {
           <b>BOOK A RIDE</b>
         </h3>
         <p className="text-sm text-gray-300 max-w-[40ch] ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
-          iure voluptate magnam fugiat vel reiciendis quisquam in qui tempora
-          pariatur!
+          Booking your airport shuttle with Lyon Cars Airport Transfers is quick
+          and easy. Simply fill out our online booking form and we'll take care
+          of the rest. Our booking process is user-friendly and hassle-free, so
+          you can book your ride in just a few clicks.
         </p>
       </div>
       <div className="container flex flex-col gap-5 md:flex-row-reverse md:flex-wrap md:items-center lg:h-[60vh] lg:justify-between">

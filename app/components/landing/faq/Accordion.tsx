@@ -71,22 +71,42 @@ const useStyles = createStyles((theme) => ({
 
 const faqData = [
   {
-    title: "How can I reset my password?",
+    title: "What is Lyon Cars Airport Transfers?",
     content:
-      "It can’t help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren’t many people or Pokémon.It was born from sludge on the ocean floor. In a sterile environment, the germs within its body can’t multiply, and it dies.It has no eyeballs, so it can’t see. It checks its surroundings via the ultrasonic waves it emits from its mouth.",
-    value: "password",
+      "Lyon Cars Airport Transfers is a professional airport transfer service provider based in Lagos and London. We specialize in providing safe and reliable airport transfers to and from local and international airports.",
+    value: "about-lcat",
   },
   {
-    title: "How can I account?",
+    title: "How do I book my airport shuttle?",
     content:
-      "It can’t help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren’t many people or Pokémon.It was born from sludge on the ocean floor. In a sterile environment, the germs within its body can’t multiply, and it dies.It has no eyeballs, so it can’t see. It checks its surroundings via the ultrasonic waves it emits from its mouth.",
-    value: "account",
+      "Booking your airport shuttle with Lyon Cars Airport Transfers is quick and easy. You can book online through our website or mobile app, or you can contact us directly to make a reservation.",
+    value: "about-booking",
   },
   {
-    title: "How can I credit?",
+    title: "What type of vehicles do you offer?",
     content:
-      "It can’t help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren’t many people or Pokémon.It was born from sludge on the ocean floor. In a sterile environment, the germs within its body can’t multiply, and it dies.It has no eyeballs, so it can’t see. It checks its surroundings via the ultrasonic waves it emits from its mouth.",
-    value: "credit",
+      "We offer a range of vehicles to suit your specific needs, including sedans, SUVs, and vans. All of our vehicles are well-maintained and equipped with modern amenities to ensure your comfort and convenience",
+    value: "about-offer",
+  },
+
+  {
+    title:
+      "How much does it cost to book a ride with Lyon Cars Airport Transfers?",
+    content:
+      "Our prices vary depending on the distance, time, and type of service you require. However, we always offer competitive rates and special discounts for advanced bookings.",
+    value: "about-price",
+  },
+  {
+    title: "Do you offer airport transfers to and from all airports?",
+    content:
+      "Yes, we offer airport transfers to and from all local and international airports in Lagos and London.",
+    value: "about-to-fro-service",
+  },
+  {
+    title: "Is Lyon Cars Airport Transfers available 24/7?",
+    content:
+      "Yes, we are available 24/7 to provide you with reliable and hassle-free airport transfers.",
+    value: "about-time",
   },
 ];
 

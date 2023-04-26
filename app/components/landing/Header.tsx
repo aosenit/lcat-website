@@ -37,11 +37,11 @@ const Header = () => {
           >
             THE AIRPORT TRANSFER PLUG
           </h1>
-          <p className="text-gray-300 max-w-[55ch]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
-            sequi. Consequatur doloribus eaque illum perferendis minus
-            necessitatibus laborum quam eius.
-          </p>
+          <h3 className="text-xl max-w-[55ch]">
+            Book Your Airport Shuttle Today and Save{" "}
+            <span className="text-3xl text-[var(--theme-color)]">20%</span>
+          </h3>
+
           <div className="flex items-center rotate-90 -translate-x-10 translate-y-10 gap-3 text-gray-400 transition hover:text-white">
             <a href="#about">
               <span className="">EXPLORE</span>

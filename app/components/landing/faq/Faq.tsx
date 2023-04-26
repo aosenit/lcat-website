@@ -11,12 +11,14 @@ const Faq = () => {
             className="text-2xl  lg:text-4xl uppercase"
             style={{ fontFamily: "var(--fFTwo)" }}
           >
-            <b>Frequently asked questions</b>
+            <b>Frequently Asked Questions</b>
           </h3>
           <p className="text-sm text-gray-300 max-w-[40ch] ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
-            iure voluptate magnam fugiat vel reiciendis quisquam in qui tempora
-            pariatur!
+            At Lyon Cars Airport Transfers, we believe in transparency and open
+            communication with our customers. That's why we've compiled a list
+            of frequently asked questions to help you understand our services
+            and make informed decisions about your airport transfers. If you
+            have any other questions, please don't hesitate to contact us
           </p>
         </div>
 

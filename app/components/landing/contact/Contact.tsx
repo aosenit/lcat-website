@@ -23,7 +23,7 @@ const Contact = () => {
           </div>
           <div className="">
             <span className="text-gray-300 text-xs">Give us a call</span>
-            <div className=" text-lg flex items-center gap-5">
+            <div className=" text-[16px] flex items-center gap-5">
               <span>(+234) 803 740 9404</span>
               <a
                 href="tel:+2348037409404"
@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
           <div className="">
             <span className="text-gray-300 text-xs">Send an email</span>
-            <div className=" text-lg flex items-center gap-5">
+            <div className=" text-[16px] flex items-center gap-5">
               <span>info@lyoncarsairporttransfer.com</span>
               <a
                 href="mailto:info@lyoncarsairporttransfer.com"

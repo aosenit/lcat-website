@@ -13,9 +13,10 @@ const About = () => (
           <b>ABOUT US</b>
         </h2>
         <p className="text-gray-300 my-5">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus fuga repellendus iusto sequi enim tempore dicta laborum
-          nostrum accusantium odit!
+          Lyon Cars Airport Transfers is a trusted and professional airport
+          transfer service provider based in Lagos and London. We specialize in
+          providing safe and reliable airport transfers to and from local and
+          international airports.
         </p>
         <a
           href="#contact"

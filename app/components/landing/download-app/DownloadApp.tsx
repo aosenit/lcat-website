@@ -25,9 +25,11 @@ const DownloadApp = () => {
               <b>Download our app</b>
             </h3>
             <p className="text-sm text-gray-300 max-w-[40ch] ">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
-              iure voluptate magnam fugiat vel reiciendis quisquam in qui
-              tempora pariatur!
+              With the Lyon Cars Airport Transfers app, you can book your
+              airport shuttle anytime, anywhere. Our app is user-friendly and
+              easy to navigate, making it easy for you to book your ride on the
+              go. Download our app today and enjoy hassle-free airport
+              transfers.
             </p>
             <div className="grid gap-4 md:grid-cols-2">
               <div className="cursor-pointer bg-[var(--theme-color)] rounded-[4rem] w-full text-black transition hover:bg-white">
