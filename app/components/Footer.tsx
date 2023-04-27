@@ -1,4 +1,3 @@
-import React from "react";
 import { FiFacebook, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const siteMapData = ["Home", "About", "Services", "Contact"];
@@ -6,15 +5,15 @@ const siteMapData = ["Home", "About", "Services", "Contact"];
 const Footer = () => {
   return (
     <footer className="text-white border-t-gray-500 border-t-[1px] py-[1rem]">
-      <div className="container md:flex md:justify-center md:items-center md:h-[40vh] md:w-full">
-        <div className="my-8 flex-1 w-full">
+      <div className="container grid gap-4 lg:grid-cols-3  lg:w-full my-3 items-start py-3">
+        <div className=" w-full">
           <h3
             className="text-xl  lg:text-4xl uppercase"
             style={{ fontFamily: "var(--fFTwo)" }}
           >
             <b>Site Map</b>
           </h3>
-          <div className="grid gap-2 my-3">
+          <div className="grid gap-3 ">
             <ul>
               {siteMapData.map((s, i) => (
                 <li>
@@ -30,7 +29,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>{" "}
-        <div className="text-left grid gap-5 py-3 flex-1 z-10 md:justify-self-end">
+        <div className="text-left grid gap-3  z-10 ">
           <h3
             className="text-xl  lg:text-4xl uppercase"
             style={{ fontFamily: "var(--fFTwo)" }}
@@ -40,25 +39,25 @@ const Footer = () => {
           <div className="flex items-center gap-3">
             <a
               href="#"
-              className="w-8 h-8 grid rounded-full place-items-center border-[2px] border-white"
+              className="w-7 h-7 grid rounded-full place-items-center border-[2px] border-white hover:text-[var(--theme-color)] hover:border-[var(--theme-color)]"
             >
               <FiFacebook />
             </a>
             <a
               href="#"
-              className="w-8 h-8 grid rounded-full place-items-center border-[2px] border-white"
+              className="w-7 h-7 grid rounded-full place-items-center border-[2px] border-white hover:text-[var(--theme-color)] hover:border-[var(--theme-color)]"
             >
               <FiTwitter />
             </a>
             <a
               href="#"
-              className="w-8 h-8 grid rounded-full place-items-center border-[2px] border-white"
+              className="w-7 h-7 grid rounded-full place-items-center border-[2px] border-white hover:text-[var(--theme-color)] hover:border-[var(--theme-color)]"
             >
               <FiInstagram />
             </a>
             <a
               href="#"
-              className="w-8 h-8 grid rounded-full place-items-center border-[2px] border-white"
+              className="w-7 h-7 grid rounded-full place-items-center border-[2px] border-white hover:text-[var(--theme-color)] hover:border-[var(--theme-color)]"
             >
               <FiLinkedin />
             </a>
@@ -72,14 +71,14 @@ const Footer = () => {
             shuttle.
           </p>
         </div>
-        <div className="my-8 flex-1 w-full">
+        <div className="lg:justify-self-end">
           <h3
             className="text-xl  lg:text-4xl uppercase"
             style={{ fontFamily: "var(--fFTwo)" }}
           >
             <b>Working Hours</b>
           </h3>
-          <div className="grid gap-2 my-3">
+          <div className="grid gap-3">
             <div className="flex items-center gap-2 text-sm text-gray-500 max-w-[40ch]">
               <span>Monday - Sunday :</span>
               <span>24/7</span>

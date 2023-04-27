@@ -1,6 +1,6 @@
-import { MantineProvider } from "@mantine/core";
 import "./globals.css";
 import Global from "./components/Global";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const metadata = {
   title: "Lyon Cars Landing Page",

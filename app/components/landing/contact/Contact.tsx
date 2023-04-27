@@ -27,7 +27,7 @@ const Contact = () => {
               <span>(+234) 803 740 9404</span>
               <a
                 href="tel:+2348037409404"
-                className="h-16 w-16 bg-[var(--theme-color)]  grid place-items-center rounded-full transition hover:opacity-[.5]"
+                className="h-12 w-12 bg-[var(--theme-color)]  grid place-items-center rounded-full transition hover:opacity-[.5]"
               >
                 <FiPhoneCall
                   size={"20px"}
@@ -42,7 +42,7 @@ const Contact = () => {
               <span>info@lyoncarsairporttransfer.com</span>
               <a
                 href="mailto:info@lyoncarsairporttransfer.com"
-                className="h-16 w-16 bg-[var(--theme-color)]  grid place-items-center rounded-full transition hover:opacity-[.5]"
+                className="h-12 w-12 bg-[var(--theme-color)]  grid place-items-center rounded-full transition hover:opacity-[.5]"
               >
                 <FiMail size={"20px"} className="text-black animate-pulse" />
               </a>

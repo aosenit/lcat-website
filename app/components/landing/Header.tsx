@@ -37,9 +37,9 @@ const Header = () => {
           >
             THE AIRPORT TRANSFER PLUG
           </h1>
-          <h3 className="text-xl max-w-[55ch]">
+          <h3 className="text-sm max-w-[55ch]">
             Book Your Airport Shuttle Today and Save{" "}
-            <span className="text-3xl text-[var(--theme-color)]">20%</span>
+            <span className="text-2xl text-[var(--theme-color)]">20%</span>
           </h3>
 
           <div className="flex items-center rotate-90 -translate-x-10 translate-y-10 gap-3 text-gray-400 transition hover:text-white">
@@ -50,7 +50,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="absolute top-1/2 -translate-y-1/2 right-[5%]">
+        <div className="absolute top-1/2 -translate-y-1/2 right-[0%]">
           <CurvedText />
         </div>
       </div>

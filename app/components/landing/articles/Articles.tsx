@@ -1,5 +1,6 @@
-import { FiArrowRight, FiGrid } from "react-icons/fi";
-import CarouselArticle from "./CarouselArticle";
+import { Carousel } from "react-responsive-carousel";
+import { articlesData } from "./articlesData";
+import ArticleCard from "./ArticleCard";
 
 const Articles = () => {
   return (
@@ -7,8 +8,8 @@ const Articles = () => {
       className="my-10 text-white border-t-gray-500 border-t-[1px] py-[2rem]"
       id="articles"
     >
-      <div className="container lg:h-[88vh] lg:grid lg:place-items-center lg:grid-cols-2">
-        <div className="text-left grid gap-5 py-3 flex-1 z-10  w-full">
+      <div className="container lg:h-[88vh] lg:flex lg:items-center">
+        <div className="text-left grid gap-5 py-3 lg:w-1/2 z-10  ">
           <h3
             className="text-2xl  lg:text-4xl uppercase"
             style={{ fontFamily: "var(--fFTwo)" }}
@@ -23,18 +24,12 @@ const Articles = () => {
           </p>
         </div>
 
-        <div className="relative flex-1">
-          <div className="w-full lg:w-[90%]">
-            <CarouselArticle />
-          </div>
-          {/* <div className="bg-black text-white z-10 absolute right-0 top-1/2 -translate-y-1/2 p-4 px-6 grid place-items-center">
-            <FiArrowRight className="text-xl" />
-          </div>
-
-          <div className="flex items-center gap-2">
-            <FiGrid />
-            <div className="text-sm">All Articles</div>
-          </div> */}
+        <div className="lg:w-1/2  justify-self-end ">
+          <Carousel autoPlay showIndicators={false} infiniteLoop>
+            {articlesData.map((article) => (
+              <ArticleCard data={article} key={article.id} />
+            ))}
+          </Carousel>
         </div>
       </div>
     </section>

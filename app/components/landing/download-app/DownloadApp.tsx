@@ -31,9 +31,9 @@ const DownloadApp = () => {
               go. Download our app today and enjoy hassle-free airport
               transfers.
             </p>
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 lg:gap-2 lg:grid-cols-2 ">
               <div className="cursor-pointer bg-[var(--theme-color)] rounded-[4rem] w-full text-black transition hover:bg-white">
-                <div className="px-20 py-3 flex items-center gap-2">
+                <div className="px-5 py-2 flex items-center gap-2 justify-center">
                   <FiPlay className="text-3xl" />
                   <div className="flex flex-col gap-1">
                     <span className="text-xs">Download From</span>
@@ -45,7 +45,7 @@ const DownloadApp = () => {
               </div>
 
               <div className="cursor-pointer bg-[var(--theme-color)] rounded-[4rem] w-full text-black transition hover:bg-white">
-                <div className="px-20 py-3 flex items-center gap-2">
+                <div className="px-5 py-2 flex items-center gap-2 justify-center">
                   <BsApple className="text-3xl" />
                   <div className="flex flex-col gap-1">
                     <span className="text-xs">Download From</span>

@@ -84,7 +84,7 @@ const BookRide = () => {
           </div>
         )}
         <div className="md:flex-1 md:flex items-center md:gap-5">
-          <div className="bg-gray-700 min-h-[100px] p-4 lg:h-[350px] md:w-fit ">
+          <div className="bg-gray-700 min-h-[100px] p-4 lg:h-[350px] md:min-w-[170px] ">
             <RadioGroup />
           </div>
           <BookingForm />
