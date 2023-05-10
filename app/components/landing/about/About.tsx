@@ -33,7 +33,7 @@ const About = () => (
             alt="about image"
             height={300}
             width={300}
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-center "
           />
         </div>
         <div className="w-full h-[300px] lg:h-[400px]">

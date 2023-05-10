@@ -18,7 +18,7 @@ const Footer = () => {
               {siteMapData.map((s, i) => (
                 <li>
                   <a
-                    href="#"
+                    href={`#${s.toLowerCase()}`}
                     key={i}
                     className="text-sm transition hover:text-[var(--theme-color)]"
                   >
